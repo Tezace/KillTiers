@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new KillListener(this), this);
 
-        getCommand("toppoints").setExecutor((sender, cmd, label, args) -> {
+        getCommand("topkills").setExecutor((sender, cmd, label, args) -> {
             tierManager.showLeaderboard(sender);
             return true;
         });
