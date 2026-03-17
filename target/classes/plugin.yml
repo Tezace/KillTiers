@@ -1,8 +1,0 @@
-name: KillTiers
-main: com.nineelo.killtiers.Main
-version: 1.2
-api-version: 1.21
-commands:
-  topkills:
-    description: Shows the top killer leaderboard
-    usage: /topkills
