@@ -26,7 +26,7 @@ public class TierManager {
         // register or get objective
         if (board.getObjective("TopKills") == null) {
             sidebar = board.registerNewObjective(
-                    "TopKills", Criteria.DUMMY, Component.text("Top Points")
+                    "TopKills", Criteria.DUMMY, Component.text("Top Kills")
             );
         } else {
             sidebar = board.getObjective("TopKills");
